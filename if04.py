@@ -18,4 +18,3 @@ def main(a,b,c):
     if c < 0:
         x3 = 1
     return x1+x2+x3
-print(main(-7,6,-3))
