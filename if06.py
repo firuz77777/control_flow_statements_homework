@@ -13,4 +13,12 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    j=0
+    if a < 0:
+        j = j + 1 
+    if b < 0:
+        j = j + 1
+    if c < 0:
+        j = j + 1
+    t = 3 - j
+    return t,j
