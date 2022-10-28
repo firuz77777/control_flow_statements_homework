@@ -20,5 +20,8 @@ def main(a,b,c):
         j = j + 1
     if c < 0:
         j = j + 1
-    t = 3 - j
-    return t,j
+    if j >= 2:
+       s = "there are a lot of negative numbers"
+    else :
+        s = "there are a lot of positive numbers"
+    return s
